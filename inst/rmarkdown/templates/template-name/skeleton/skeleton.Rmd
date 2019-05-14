@@ -1,0 +1,38 @@
+---
+title: "Template Title"
+subtitle: "Session#2"
+author: 
+- name: "Your Name"
+  affiliation: Goethe University Frankfurt am Main
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+csl: nature.csl
+output:
+  html_document:
+    toc: true
+    css: style_gu.css
+    toc_depth: 3
+    number_sections: true
+    toc_float: 
+      collapsed: true
+      smooth_scroll: true
+    theme: default
+    highlight: haddock
+    fig_caption: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, 
+                      out.width = '90%\\textwidth', 
+                      fig.align = 'center',
+                      dev.args = list(bg = "transparent"), dev = 'png', dpi = 200)
+library(plyr)
+library(dplyr)
+library(ggplot2)
+library(ggpubr)
+```
+
+# Introduction
+
+# Analysis
+
+# Conclusions
