@@ -1,6 +1,6 @@
 ---
 title: "Template Title"
-subtitle: "Session#2"
+subtitle: "subtitle"
 author: 
 - name: "Your Name"
   affiliation: Goethe University Frankfurt am Main
